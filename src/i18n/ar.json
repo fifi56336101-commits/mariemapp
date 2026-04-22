@@ -1,0 +1,120 @@
+{
+  "app": {
+    "name": "DermAssist",
+    "tagline": "كشف وعلاج قرح الضغط"
+  },
+  "auth": {
+    "signIn": "تسجيل الدخول",
+    "signUp": "إنشاء حساب",
+    "signOut": "تسجيل الخروج",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "forgotPassword": "نسيت كلمة المرور؟",
+    "noAccount": "ليس لديك حساب؟",
+    "haveAccount": "لديك حساب بالفعل؟",
+    "createAccount": "إنشاء حساب",
+    "loginSuccess": "تم تسجيل الدخول بنجاح!",
+    "signupSuccess": "تم إنشاء الحساب بنجاح!",
+    "error": "حدث خطأ"
+  },
+  "home": {
+    "welcome": "مرحباً بك في DermAssist",
+    "subtitle": "حلل قرح الضغط بمساعدة الذكاء الاصطناعي",
+    "startAnalysis": "تحليل الجرح",
+    "viewHistory": "سجل الجروح",
+    "settings": "الإعدادات",
+    "chatAssistant": "المساعد الذكي"
+  },
+  "patientForm": {
+    "title": "معلومات المريض",
+    "subtitle": "قدم تفاصيل عن قرحة الضغط للتحليل الدقيق",
+    "age": "العمر",
+    "agePlaceholder": "أدخل عمر المريض",
+    "associatedDiseases": "الأمراض المصاحبة",
+    "diabetes": "السكري",
+    "immobility": "عدم الحركة",
+    "incontinence": "سلس البول",
+    "malnutrition": "سوء التغذية",
+    "circulation": "ضعف الدورة الدموية",
+    "woundLocation": "موقع الجرح",
+    "sacrum": "العجز (أسفل الظهر)",
+    "heel": "الكعب",
+    "hip": "الورك",
+    "elbow": "الكوع",
+    "shoulder": "الكتف",
+    "ear": "الأذن",
+    "otherLocation": "موقع آخر",
+    "duration": "مدة الجرح",
+    "durationPlaceholder": "مثال: أسبوعين، 3 أشهر",
+    "painLevel": "مستوى الألم (1-10)",
+    "infectionSigns": "علامات العدوى",
+    "redness": "احمرار متزايد",
+    "heat": "دفء حول الجرح",
+    "pus": "صديد أو إفرازات",
+    "odor": "رائحة كريهة",
+    "fever": "حمى",
+    "additionalNotes": "ملاحظات إضافية",
+    "additionalNotesPlaceholder": "أي معلومات أخرى ذات صلة...",
+    "next": "التالي: التقاط صورة",
+    "required": "هذا الحقل مطلوب"
+  },
+  "camera": {
+    "title": "التقاط صورة الجرح",
+    "takePhoto": "التقاط صورة",
+    "chooseFromGallery": "اختر من المعرض",
+    "retake": "إعادة التقاط",
+    "usePhoto": "تحليل الجرح",
+    "analyzing": "جاري تحليل الجرح...",
+    "noCamera": "لا توجد كاميرا متاحة",
+    "permissionRequired": "مطلوب إذن الكاميرا"
+  },
+  "results": {
+    "title": "نتائج التحليل",
+    "stage": "مرحلة القرحة",
+    "description": "الوصف",
+    "infectionRisk": "خطر العدوى",
+    "healingStatus": "حالة الشفاء",
+    "recommendations": "توصيات العناية",
+    "seekDoctor": "استشارة طبيب؟",
+    "yes": "نعم - استشر طبيب أو ممرض",
+    "no": "لا - استمر في العناية المنزلية",
+    "newAnalysis": "تحليل جديد",
+    "saveResults": "حفظ في السجل",
+    "startChat": "اسأل المساعد الذكي"
+  },
+  "disclaimer": {
+    "title": "إخلاء المسؤولية الطبية",
+    "text": "تحليل الذكاء الاصطناعي هذا للأغراض المعلوماتية فقط وليس تشخيصاً سريرياً. استشر دائماً متخصصاً في الرعاية الصحية (طبيب أو ممرض) للحصول على نصيحة طبية مناسبة. اطلب الرعاية الطبية الفورية إذا لاحظت علامات العدوى."
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "language": "اللغة",
+    "notifications": "تذكيرات العناية",
+    "privacyPolicy": "سياسة الخصوصية",
+    "termsOfService": "شروط الخدمة",
+    "about": "حول DermAssist",
+    "version": "الإصدار"
+  },
+  "languages": {
+    "en": "English",
+    "fr": "Français",
+    "es": "Español",
+    "ar": "العربية"
+  },
+  "common": {
+    "loading": "جاري التحميل...",
+    "error": "خطأ",
+    "cancel": "إلغاء",
+    "confirm": "تأكيد",
+    "save": "حفظ",
+    "back": "رجوع",
+    "continue": "متابعة"
+  },
+  "chat": {
+    "welcome": "مرحباً! أنا مساعدك في رعاية قرح الضغط. يمكنني المساعدة في الإجابة على أسئلة حول رعاية الجروح والوقاية وتغيير الضمادات والإدارة العامة. كيف يمكنني مساعدتك اليوم؟",
+    "error": "أعتذر، لكن واجهت خطأ: {{message}}. يرجى المحاولة مرة أخرى أو استشارة أخصائي رعاية صحية للحصول على مساعدة فورية.",
+    "placeholder": "اكتب سؤالك...",
+    "send": "إرسال"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "app": {
+    "name": "DermAssist",
+    "tagline": "Detección y Cuidado de Úlceras por Presión"
+  },
+  "auth": {
+    "signIn": "Iniciar Sesión",
+    "signUp": "Registrarse",
+    "signOut": "Cerrar Sesión",
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "confirmPassword": "Confirmar Contraseña",
+    "forgotPassword": "¿Olvidó su Contraseña?",
+    "noAccount": "¿No tiene una cuenta?",
+    "haveAccount": "¿Ya tiene una cuenta?",
+    "createAccount": "Crear Cuenta",
+    "loginSuccess": "¡Inicio de sesión exitoso!",
+    "signupSuccess": "¡Cuenta creada exitosamente!",
+    "error": "Ocurrió un error"
+  },
+  "home": {
+    "welcome": "Bienvenido a DermAssist",
+    "subtitle": "Analiza úlceras por presión con asistencia de IA",
+    "startAnalysis": "Analizar Herida",
+    "viewHistory": "Diario de Heridas",
+    "settings": "Configuración",
+    "chatAssistant": "Asistente IA"
+  },
+  "patientForm": {
+    "title": "Información del Paciente",
+    "subtitle": "Proporcione detalles sobre la úlcera por presión para un análisis preciso",
+    "age": "Edad",
+    "agePlaceholder": "Ingrese edad del paciente",
+    "associatedDiseases": "Enfermedades Asociadas",
+    "diabetes": "Diabetes",
+    "immobility": "Inmovilidad",
+    "incontinence": "Incontinencia",
+    "malnutrition": "Desnutrición",
+    "circulation": "Mala Circulación",
+    "woundLocation": "Ubicación de la Herida",
+    "sacrum": "Sacro (parte baja de la espalda)",
+    "heel": "Talon",
+    "hip": "Cadera",
+    "elbow": "Codo",
+    "shoulder": "Hombro",
+    "ear": "Oreja",
+    "otherLocation": "Otra",
+    "duration": "Duración de la Herida",
+    "durationPlaceholder": "ej: 2 semanas, 3 meses",
+    "painLevel": "Nivel de Dolor (1-10)",
+    "infectionSigns": "Signos de Infección",
+    "redness": "Enrojecimiento Aumentado",
+    "heat": "Calor alrededor de la herida",
+    "pus": "Pus o Secreción",
+    "odor": "Olor Desagradable",
+    "fever": "Fiebre",
+    "additionalNotes": "Notas Adicionales",
+    "additionalNotesPlaceholder": "Cualquier otra información relevante...",
+    "next": "Siguiente: Tomar Foto",
+    "required": "Este campo es requerido"
+  },
+  "camera": {
+    "title": "Capturar Imagen de la Herida",
+    "takePhoto": "Tomar Foto",
+    "chooseFromGallery": "Elegir de la Galería",
+    "retake": "Volver a Tomar",
+    "usePhoto": "Analizar Herida",
+    "analyzing": "Analizando herida...",
+    "noCamera": "Cámara no disponible",
+    "permissionRequired": "Se requiere permiso de cámara"
+  },
+  "results": {
+    "title": "Resultados del Análisis",
+    "stage": "Etapa de la Úlcera",
+    "description": "Descripción",
+    "infectionRisk": "Riesgo de Infección",
+    "healingStatus": "Estado de Curación",
+    "recommendations": "Recomendaciones de Cuidado",
+    "seekDoctor": "¿Consultar a un Profesional?",
+    "yes": "SÍ - Consulte a un Profesional",
+    "no": "NO - Continúe Cuidado en Casa",
+    "newAnalysis": "Nuevo Análisis",
+    "saveResults": "Guardar en Diario",
+    "startChat": "Preguntar al Asistente IA"
+  },
+  "disclaimer": {
+    "title": "Aviso Médico",
+    "text": "Este análisis de IA es solo informativo y NO es un diagnóstico clínico. Siempre consulte a un profesional de salud calificado (médico o enfermero) para consejos médicos apropiados. Busque atención médica inmediata si nota signos de infección."
+  },
+  "settings": {
+    "title": "Configuración",
+    "language": "Idioma",
+    "notifications": "Recordatorios de Cuidado",
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfService": "Términos de Servicio",
+    "about": "Acerca de DermAssist",
+    "version": "Versión"
+  },
+  "languages": {
+    "en": "English",
+    "fr": "Français",
+    "es": "Español",
+    "ar": "العربية"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "save": "Guardar",
+    "back": "Atrás",
+    "continue": "Continuar"
+  },
+  "chat": {
+    "welcome": "¡Hola! Soy su asistente de cuidado de úlceras por presión. Puedo ayudar a responder preguntas sobre cuidado de heridas, prevención, cambios de vendajes y manejo general. ¿Cómo puedo ayudarle hoy?",
+    "error": "Me disculpo, pero encontré un error: {{message}}. Por favor intente de nuevo o consulte a un profesional de salud para asistencia inmediata.",
+    "placeholder": "Escriba su pregunta...",
+    "send": "Enviar"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "app": {
+    "name": "DermAssist",
+    "tagline": "Pressure Ulcer Detection & Care"
+  },
+  "auth": {
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "signOut": "Sign Out",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "forgotPassword": "Forgot Password?",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "createAccount": "Create Account",
+    "loginSuccess": "Login successful!",
+    "signupSuccess": "Account created successfully!",
+    "error": "An error occurred"
+  },
+  "home": {
+    "welcome": "Welcome to DermAssist",
+    "subtitle": "Analyze pressure ulcers with AI assistance",
+    "startAnalysis": "Analyze Wound",
+    "viewHistory": "Wound Journal",
+    "settings": "Settings",
+    "chatAssistant": "AI Assistant"
+  },
+  "patientForm": {
+    "title": "Patient Information",
+    "subtitle": "Provide details about the pressure ulcer for accurate analysis",
+    "age": "Age",
+    "agePlaceholder": "Enter patient age",
+    "associatedDiseases": "Associated Conditions",
+    "diabetes": "Diabetes",
+    "immobility": "Immobility",
+    "incontinence": "Incontinence",
+    "malnutrition": "Malnutrition",
+    "circulation": "Poor Circulation",
+    "woundLocation": "Wound Location",
+    "sacrum": "Sacrum (lower back)",
+    "heel": "Heel",
+    "hip": "Hip",
+    "elbow": "Elbow",
+    "shoulder": "Shoulder",
+    "ear": "Ear",
+    "otherLocation": "Other",
+    "duration": "Duration of Wound",
+    "durationPlaceholder": "e.g., 2 weeks, 3 months",
+    "painLevel": "Pain Level (1-10)",
+    "infectionSigns": "Signs of Infection",
+    "redness": "Increased Redness",
+    "heat": "Warmth around wound",
+    "pus": "Pus or Discharge",
+    "odor": "Unpleasant Odor",
+    "fever": "Fever",
+    "additionalNotes": "Additional Notes",
+    "additionalNotesPlaceholder": "Any other relevant information...",
+    "next": "Next: Take Photo",
+    "required": "This field is required"
+  },
+  "camera": {
+    "title": "Capture Wound Image",
+    "takePhoto": "Take Photo",
+    "chooseFromGallery": "Choose from Gallery",
+    "retake": "Retake",
+    "usePhoto": "Analyze Wound",
+    "analyzing": "Analyzing wound...",
+    "noCamera": "No camera available",
+    "permissionRequired": "Camera permission required"
+  },
+  "results": {
+    "title": "Analysis Results",
+    "stage": "Pressure Ulcer Stage",
+    "description": "Description",
+    "infectionRisk": "Infection Risk",
+    "healingStatus": "Healing Status",
+    "recommendations": "Care Recommendations",
+    "seekDoctor": "Seek Medical Attention?",
+    "yes": "YES - Consult a Professional",
+    "no": "NO - Continue Home Care",
+    "newAnalysis": "New Analysis",
+    "saveResults": "Save to Journal",
+    "startChat": "Ask AI Assistant"
+  },
+  "disclaimer": {
+    "title": "Medical Disclaimer",
+    "text": "This AI analysis is for informational purposes only and is NOT a clinical diagnosis. Always consult a qualified healthcare professional (physician or nurse) for proper medical advice, diagnosis, or treatment. Seek immediate medical attention if you notice signs of infection."
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "notifications": "Care Reminders",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "about": "About DermAssist",
+    "version": "Version"
+  },
+  "languages": {
+    "en": "English",
+    "fr": "Français",
+    "es": "Español",
+    "ar": "العربية"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "back": "Back",
+    "continue": "Continue"
+  },
+  "chat": {
+    "welcome": "Hello! I'm your pressure ulcer care assistant. I can help answer questions about wound care, prevention, dressing changes, and general management. How can I help you today?",
+    "error": "I apologize, but I encountered an error: {{message}}. Please try again or consult a healthcare professional for immediate assistance.",
+    "placeholder": "Type your question...",
+    "send": "Send"
+  }
+}

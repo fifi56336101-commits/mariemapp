@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DermAssist - AI-Powered Pressure Ulcer Care</title>
+  <meta name="description" content="Advanced AI technology for instant wound staging, healing tracking, and personalized care recommendations.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container nav-content">
+      <a href="#" class="logo">
+        <div class="logo-icon-wrapper">
+          <span class="logo-icon">🩹</span>
+        </div>
+        <div class="logo-text-wrapper">
+          <span class="logo-text">DermAssist</span>
+          <span class="logo-tagline">AI Wound Care</span>
+        </div>
+      </a>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#manual">Manual</a>
+        <a href="#download">Download</a>
+      </div>
+      <a href="#download" class="nav-cta">Get the App</a>
+      <button class="mobile-menu-btn" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu-overlay" onclick="closeMobileMenu()"></div>
+  <div class="mobile-menu">
+    <div class="mobile-menu-header">
+      <div class="mobile-menu-logo">
+        <div class="logo-icon-wrapper">
+          <span class="logo-icon">🩹</span>
+        </div>
+        <span class="logo-text">DermAssist</span>
+      </div>
+      <button class="mobile-menu-close" onclick="closeMobileMenu()">✕</button>
+    </div>
+    <div class="mobile-menu-content">
+      <ul class="mobile-menu-links">
+        <li>
+          <a href="#features" onclick="closeMobileMenu()">
+            <span>✨</span>
+            Features
+          </a>
+        </li>
+        <li>
+          <a href="#how-it-works" onclick="closeMobileMenu()">
+            <span>⚡</span>
+            How It Works
+          </a>
+        </li>
+        <li>
+          <a href="#manual" onclick="closeMobileMenu()">
+            <span>📖</span>
+            User Manual
+          </a>
+        </li>
+        <li>
+          <a href="#download" onclick="closeMobileMenu()">
+            <span>📱</span>
+            Download
+          </a>
+        </li>
+        <li>
+          <a href="#faq" onclick="closeMobileMenu()">
+            <span>❓</span>
+            FAQ
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="mobile-menu-cta">
+      <a href="#download" class="btn btn-primary" onclick="closeMobileMenu()">
+        <span class="btn-icon">📱</span>
+        <span>Download Now</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-bg">
+      <div class="hero-gradient"></div>
+      <div class="hero-grid"></div>
+      <div class="hero-glow"></div>
+    </div>
+    
+    <div class="container hero-content">
+      <div class="hero-left">
+        <div class="hero-badge">
+          <span class="badge-icon">✨</span>
+          <span>AI-Powered Healthcare Solution</span>
+        </div>
+        
+        <h1 class="hero-title">
+          <span class="title-line">Smart</span>
+          <span class="title-line title-gradient">Pressure Ulcer</span>
+          <span class="title-line">Analysis</span>
+        </h1>
+        
+        <p class="hero-description">
+          Advanced AI technology for instant wound staging, healing tracking, and personalized care recommendations. Trusted by healthcare professionals worldwide.
+        </p>
+        
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-icon">🎯</div>
+            <div class="stat-info">
+              <span class="stat-number">NPIAP</span>
+              <span class="stat-label">Staging</span>
+            </div>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <div class="stat-icon">🔒</div>
+            <div class="stat-info">
+              <span class="stat-number">HIPAA</span>
+              <span class="stat-label">Compliant</span>
+            </div>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <div class="stat-icon">🌍</div>
+            <div class="stat-info">
+              <span class="stat-number">4+</span>
+              <span class="stat-label">Languages</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="hero-actions">
+          <a href="#download" class="btn btn-primary">
+            <span class="btn-icon">📱</span>
+            <span class="btn-text">
+              <span class="btn-title">Download Now</span>
+              <span class="btn-subtitle">Free on iOS & Android</span>
+            </span>
+          </a>
+          <a href="#how-it-works" class="btn btn-secondary">
+            <span class="btn-icon">▶️</span>
+            <span>See How It Works</span>
+          </a>
+        </div>
+        
+        <div class="hero-trust">
+          <span class="trust-label">Trusted by healthcare professionals</span>
+          <div class="trust-avatars">
+            <div class="avatar">👨‍⚕️</div>
+            <div class="avatar">👩‍⚕️</div>
+            <div class="avatar">🧑‍⚕️</div>
+            <div class="avatar-count">+500</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="hero-right">
+        <div class="phone-mockup">
+          <div class="phone-frame">
+            <div class="phone-screen">
+              <div class="app-header">
+                <span class="app-logo">🩹</span>
+                <span class="app-name">DermAssist</span>
+              </div>
+              <div class="app-analysis">
+                <div class="analysis-image">
+                  <div class="scan-line"></div>
+                </div>
+                <div class="analysis-result">
+                  <div class="result-badge critical">
+                    <span>⚠️</span>
+                    <span>HIGH URGENCY</span>
+                  </div>
+                  <div class="result-stage">
+                    <span class="stage-label">Stage</span>
+                    <span class="stage-number">2</span>
+                  </div>
+                  <div class="result-bar">
+                    <div class="bar-fill" style="width: 65%"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="app-recommendations">
+                <div class="rec-item">
+                  <span class="rec-icon">🩹</span>
+                  <span class="rec-text">Apply dressing</span>
+                </div>
+                <div class="rec-item">
+                  <span class="rec-icon">📅</span>
+                  <span class="rec-text">Follow-up in 3 days</span>
+                </div>
+                <div class="rec-item">
+                  <span class="rec-icon">🏥</span>
+                  <span class="rec-text">Consult specialist</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="phone-shadow"></div>
+        </div>
+        
+        <div class="floating-elements">
+          <div class="float-card float-1">
+            <span class="float-icon">✅</span>
+            <span>Analysis Complete</span>
+          </div>
+          <div class="float-card float-2">
+            <span class="float-icon">🔔</span>
+            <span>Care Reminder Set</span>
+          </div>
+          <div class="float-card float-3">
+            <span class="float-icon">📊</span>
+            <span>Progress Tracked</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="scroll-indicator">
+      <div class="mouse">
+        <div class="wheel"></div>
+      </div>
+      <span>Scroll to explore</span>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Features</span>
+        <h2>Comprehensive Wound Care Tools</h2>
+        <p>Everything you need for professional pressure ulcer assessment and management</p>
+      </div>
+      
+      <div class="features-grid">
+        <div class="feature-card featured">
+          <div class="feature-header">
+            <div class="feature-icon-large">📸</div>
+            <div class="feature-badge">AI Powered</div>
+          </div>
+          <h3>Instant Wound Analysis</h3>
+          <p>Capture a photo and receive AI-powered analysis in seconds. Get accurate NPIAP staging, urgency assessment, and detailed wound characteristics.</p>
+          <ul class="feature-list">
+            <li>Stage 1-4 classification</li>
+            <li>Infection risk detection</li>
+            <li>Healing progress tracking</li>
+          </ul>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">🎯</div>
+          <h3>NPIAP Staging</h3>
+          <p>Accurate pressure injury classification following National Pressure Injury Advisory Panel guidelines.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">📋</div>
+          <h3>Wound Journal</h3>
+          <p>Document and track healing progress over time with visual timeline and comprehensive history.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">💬</div>
+          <h3>AI Care Assistant</h3>
+          <p>24/7 chat support for wound care questions, prevention tips, and treatment guidance.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">🔔</div>
+          <h3>Smart Reminders</h3>
+          <p>Customizable notifications for dressing changes, position rotations, and wound monitoring.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">🌍</div>
+          <h3>Multi-Language</h3>
+          <p>Available in English, French, Arabic, and Spanish for global healthcare accessibility.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section id="how-it-works" class="how-it-works">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Process</span>
+        <h2>How It Works</h2>
+        <p>Three simple steps to professional wound analysis</p>
+      </div>
+      
+      <div class="steps-container">
+        <div class="step">
+          <div class="step-number">01</div>
+          <div class="step-content">
+            <div class="step-icon">📝</div>
+            <h3>Enter Patient Data</h3>
+            <p>Input clinical information including age, risk factors, wound location, and symptoms.</p>
+          </div>
+        </div>
+        
+        <div class="step-connector">
+          <div class="connector-line"></div>
+          <div class="connector-dot"></div>
+        </div>
+        
+        <div class="step">
+          <div class="step-number">02</div>
+          <div class="step-content">
+            <div class="step-icon">📸</div>
+            <h3>Capture Wound Image</h3>
+            <p>Take a clear photo of the wound using your device's camera or select from gallery.</p>
+          </div>
+        </div>
+        
+        <div class="step-connector">
+          <div class="connector-line"></div>
+          <div class="connector-dot"></div>
+        </div>
+        
+        <div class="step">
+          <div class="step-number">03</div>
+          <div class="step-content">
+            <div class="step-icon">🔬</div>
+            <h3>Get AI Analysis</h3>
+            <p>Receive instant staging, urgency level, and personalized care recommendations.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Manual Section -->
+  <section id="manual" class="manual">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Documentation</span>
+        <h2>User Manual</h2>
+        <p>Complete guide to using DermAssist effectively</p>
+      </div>
+
+      <div class="manual-content">
+        <nav class="manual-nav">
+          <a href="#getting-started" class="manual-nav-item active">
+            <span class="nav-icon">🚀</span>
+            <span>Getting Started</span>
+          </a>
+          <a href="#analysis" class="manual-nav-item">
+            <span class="nav-icon">📸</span>
+            <span>Wound Analysis</span>
+          </a>
+          <a href="#journal" class="manual-nav-item">
+            <span class="nav-icon">📋</span>
+            <span>Wound Journal</span>
+          </a>
+          <a href="#assistant" class="manual-nav-item">
+            <span class="nav-icon">💬</span>
+            <span>AI Assistant</span>
+          </a>
+          <a href="#reminders" class="manual-nav-item">
+            <span class="nav-icon">🔔</span>
+            <span>Reminders</span>
+          </a>
+        </nav>
+
+        <div class="manual-sections">
+          <section id="getting-started" class="manual-section">
+            <div class="section-title">
+              <span class="section-icon">🚀</span>
+              <h3>Getting Started</h3>
+            </div>
+            
+            <div class="manual-grid">
+              <div class="manual-card">
+                <div class="card-header">
+                  <span class="card-number">1</span>
+                  <h4>Installation</h4>
+                </div>
+                <p>Download DermAssist from the App Store (iOS) or Google Play (Android). The app requires iOS 13+ or Android 8+.</p>
+                <div class="requirements">
+                  <span class="req-badge">📷 Camera</span>
+                  <span class="req-badge">🖼️ Photos</span>
+                  <span class="req-badge">🌐 Internet</span>
+                </div>
+              </div>
+
+              <div class="manual-card">
+                <div class="card-header">
+                  <span class="card-number">2</span>
+                  <h4>Account Setup</h4>
+                </div>
+                <p>Create an account with your email or continue as a guest. Guest mode stores data locally on your device.</p>
+                <ul>
+                  <li><strong>Email Sign Up:</strong> Full access with cloud backup</li>
+                  <li><strong>Guest Mode:</strong> Quick start, local storage only</li>
+                </ul>
+              </div>
+
+              <div class="manual-card">
+                <div class="card-header">
+                  <span class="card-number">3</span>
+                  <h4>Language Selection</h4>
+                </div>
+                <p>Choose your preferred language from Settings. Available languages:</p>
+                <div class="language-grid">
+                  <div class="lang-item"><span>🇬🇧</span> English</div>
+                  <div class="lang-item"><span>🇫🇷</span> Français</div>
+                  <div class="lang-item"><span>🇸🇦</span> العربية</div>
+                  <div class="lang-item"><span>🇪🇸</span> Español</div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="analysis" class="manual-section">
+            <div class="section-title">
+              <span class="section-icon">📸</span>
+              <h3>Wound Analysis</h3>
+            </div>
+            
+            <div class="manual-grid">
+              <div class="manual-card large">
+                <div class="card-header">
+                  <span class="card-number">1</span>
+                  <h4>Patient Information</h4>
+                </div>
+                <p>Enter clinical data for accurate analysis:</p>
+                <div class="info-grid">
+                  <div class="info-item">
+                    <span class="info-icon">🎂</span>
+                    <span><strong>Age:</strong> Patient age in years</span>
+                  </div>
+                  <div class="info-item">
+                    <span class="info-icon">⚠️</span>
+                    <span><strong>Risk Factors:</strong> Diabetes, mobility issues</span>
+                  </div>
+                  <div class="info-item">
+                    <span class="info-icon">📍</span>
+                    <span><strong>Location:</strong> Anatomical site</span>
+                  </div>
+                  <div class="info-item">
+                    <span class="info-icon">⏱️</span>
+                    <span><strong>Duration:</strong> Time since onset</span>
+                  </div>
+                  <div class="info-item">
+                    <span class="info-icon">😣</span>
+                    <span><strong>Pain Level:</strong> Scale 1-10</span>
+                  </div>
+                  <div class="info-item">
+                    <span class="info-icon">🦠</span>
+                    <span><strong>Infection Signs:</strong> Redness, heat, pus</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="manual-card">
+                <div class="card-header">
+                  <span class="card-number">2</span>
+                  <h4>Capture Image</h4>
+                </div>
+                <p>Take a clear photo of the wound:</p>
+                <ol>
+                  <li>Ensure good lighting</li>
+                  <li>Position camera directly above</li>
+                  <li>Include surrounding skin</li>
+                  <li>Keep camera steady</li>
+                </ol>
+                <div class="tip-box">
+                  <strong>💡 Pro Tip:</strong> Use consistent lighting and angles for better tracking over time.
+                </div>
+              </div>
+
+              <div class="manual-card">
+                <div class="card-header">
+                  <span class="card-number">3</span>
+                  <h4>Analysis Results</h4>
+                </div>
+                <p>The AI provides comprehensive analysis:</p>
+                <ul>
+                  <li><strong>Urgency:</strong> CRITICAL, HIGH, MEDIUM, LOW</li>
+                  <li><strong>Stage:</strong> 1-4, Unstageable, DTI</li>
+                  <li><strong>Description:</strong> Wound characteristics</li>
+                  <li><strong>Infection Risk:</strong> Low, Medium, High</li>
+                  <li><strong>Recommendations:</strong> Care instructions</li>
+                </ul>
+              </div>
+            </div>
+            
+            <div class="warning-banner">
+              <span class="warning-icon">⚠️</span>
+              <div class="warning-content">
+                <strong>Medical Disclaimer</strong>
+                <p>This AI analysis is for educational purposes only. Always consult healthcare professionals for clinical decisions.</p>
+              </div>
+            </div>
+          </section>
+
+          <section id="journal" class="manual-section">
+            <div class="section-title">
+              <span class="section-icon">📋</span>
+              <h3>Wound Journal</h3>
+            </div>
+            
+            <div class="manual-grid">
+              <div class="manual-card">
+                <div class="card-header">
+                  <span class="card-icon">💾</span>
+                  <h4>Saving Analyses</h4>
+                </div>
+                <p>After each analysis, tap "Save to Journal" to store results with image, analysis, patient info, and timestamp.</p>
+              </div>
+
+              <div class="manual-card">
+                <div class="card-header">
+                  <span class="card-icon">📊</span>
+                  <h4>Viewing History</h4>
+                </div>
+                <p>Access your wound journal from home. View timeline, statistics, and compare entries. Tap to view, long-press to delete.</p>
+              </div>
+
+              <div class="manual-card">
+                <div class="card-header">
+                  <span class="card-icon">📈</span>
+                  <h4>Tracking Progress</h4>
+                </div>
+                <p>Monitor healing over time by comparing entries. Track stage changes, size, and intervention effectiveness.</p>
+              </div>
+            </div>
+          </section>
+
+          <section id="assistant" class="manual-section">
+            <div class="section-title">
+              <span class="section-icon">💬</span>
+              <h3>AI Care Assistant</h3>
+            </div>
+            
+            <div class="manual-grid">
+              <div class="manual-card large">
+                <div class="card-header">
+                  <span class="card-icon">🤖</span>
+                  <h4>Chat Capabilities</h4>
+                </div>
+                <p>The AI assistant can help with:</p>
+                <div class="chat-topics">
+                  <span class="topic">🩹 Wound care techniques</span>
+                  <span class="topic">📦 Dressing recommendations</span>
+                  <span class="topic">🛡️ Prevention strategies</span>
+                  <span class="topic">🥗 Nutrition tips</span>
+                  <span class="topic">⏰ Position schedules</span>
+                  <span class="topic">🔍 Infection signs</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="reminders" class="manual-section">
+            <div class="section-title">
+              <span class="section-icon">🔔</span>
+              <h3>Care Reminders</h3>
+            </div>
+            
+            <div class="manual-grid">
+              <div class="manual-card">
+                <div class="card-header">
+                  <span class="card-icon">⚙️</span>
+                  <h4>Setup</h4>
+                </div>
+                <p>Navigate to Settings → Care Reminders to configure dressing changes, position rotations, and wound monitoring.</p>
+              </div>
+
+              <div class="manual-card">
+                <div class="card-header">
+                  <span class="card-icon">🔔</span>
+                  <h4>Notification Types</h4>
+                </div>
+                <ul>
+                  <li><strong>Dressing:</strong> Daily, every 2 days, weekly</li>
+                  <li><strong>Position:</strong> Every 2 hours (recommended)</li>
+                  <li><strong>Monitoring:</strong> Daily check reminders</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download Section -->
+  <section id="download" class="download">
+    <div class="container">
+      <div class="download-content">
+        <div class="download-info">
+          <span class="section-badge">Download</span>
+          <h2>Get DermAssist Today</h2>
+          <p>Available on iOS and Android. Start your professional wound care journey now.</p>
+          
+          <div class="download-features">
+            <div class="dl-feature"><span>✅</span><span>Free to use</span></div>
+            <div class="dl-feature"><span>✅</span><span>No account required</span></div>
+            <div class="dl-feature"><span>✅</span><span>Works offline</span></div>
+            <div class="dl-feature"><span>✅</span><span>HIPAA compliant</span></div>
+          </div>
+        </div>
+        
+        <div class="download-cards">
+          <div class="download-card">
+            <div class="dl-icon">🍎</div>
+            <h3>iOS</h3>
+            <p>iPhone & iPad</p>
+            <span class="dl-req">iOS 13.0+</span>
+            <a href="#" class="btn btn-download"><span>App Store</span></a>
+          </div>
+
+          <div class="download-card">
+            <div class="dl-icon">🤖</div>
+            <h3>Android</h3>
+            <p>Phones & Tablets</p>
+            <span class="dl-req">Android 8.0+</span>
+            <a href="#" class="btn btn-download"><span>Google Play</span></a>
+          </div>
+
+          <div class="download-card">
+            <div class="dl-icon">📦</div>
+            <h3>APK</h3>
+            <p>Direct Download</p>
+            <span class="dl-req">Android 8.0+</span>
+            <a href="#" class="btn btn-download"><span>Download APK</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="faq">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">FAQ</span>
+        <h2>Frequently Asked Questions</h2>
+      </div>
+
+      <div class="faq-grid">
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <span>Is DermAssist free?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes! DermAssist is completely free to download and use. All features including AI analysis, wound journal, and care reminders are available at no cost.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <span>Is my data secure?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Absolutely. DermAssist uses end-to-end encryption for all data transmission. Images are processed securely and not stored permanently. The app is designed with HIPAA compliance in mind.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <span>Can I use it offline?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Some features work offline: viewing saved entries, accessing reminders, and using cached chat responses. AI wound analysis requires an internet connection.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <span>How accurate is the AI?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>The AI provides educational analysis based on NPIAP guidelines. However, it is NOT a substitute for professional medical diagnosis. Always consult a healthcare provider for clinical decisions.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <span>Can I share with my doctor?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes! Use the "Share Results" button after each analysis to export a summary via email, messaging apps, or print for your healthcare provider.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <span>What languages are supported?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>DermAssist supports English, French, Arabic, and Spanish. Change language from Settings. More languages are planned for future updates.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <div class="logo-icon-wrapper">
+            <span class="logo-icon">🩹</span>
+          </div>
+          <div class="brand-info">
+            <span class="brand-name">DermAssist</span>
+            <span class="brand-tagline">AI-Powered Wound Care</span>
+          </div>
+          <p class="brand-description">Professional pressure ulcer analysis and care management for healthcare providers and caregivers.</p>
+        </div>
+        
+        <div class="footer-links">
+          <div class="footer-column">
+            <h4>Product</h4>
+            <a href="#features">Features</a>
+            <a href="#how-it-works">How It Works</a>
+            <a href="#download">Download</a>
+          </div>
+          <div class="footer-column">
+            <h4>Resources</h4>
+            <a href="#manual">User Manual</a>
+            <a href="#faq">FAQ</a>
+            <a href="#">Help Center</a>
+          </div>
+          <div class="footer-column">
+            <h4>Legal</h4>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Medical Disclaimer</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>© 2026 DermAssist. For educational purposes only. Not a substitute for professional medical advice.</p>
+        <p class="footer-version">Version 1.0.0 • Built with ❤️ for healthcare</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

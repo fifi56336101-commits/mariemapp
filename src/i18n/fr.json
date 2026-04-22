@@ -1,0 +1,120 @@
+{
+  "app": {
+    "name": "DermAssist",
+    "tagline": "Détection et Soins d'Escarres"
+  },
+  "auth": {
+    "signIn": "Se Connecter",
+    "signUp": "S'inscrire",
+    "signOut": "Se Déconnecter",
+    "email": "Email",
+    "password": "Mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+    "forgotPassword": "Mot de passe oublié?",
+    "noAccount": "Vous n'avez pas de compte?",
+    "haveAccount": "Vous avez déjà un compte?",
+    "createAccount": "Créer un Compte",
+    "loginSuccess": "Connexion réussie!",
+    "signupSuccess": "Compte créé avec succès!",
+    "error": "Une erreur s'est produite"
+  },
+  "home": {
+    "welcome": "Bienvenue sur DermAssist",
+    "subtitle": "Analysez les escarres avec l'aide de l'IA",
+    "startAnalysis": "Analyser la Plaie",
+    "viewHistory": "Journal des Plaies",
+    "settings": "Paramètres",
+    "chatAssistant": "Assistant IA"
+  },
+  "patientForm": {
+    "title": "Informations Patient",
+    "subtitle": "Fournissez des détails sur l'escarre pour une analyse précise",
+    "age": "Âge",
+    "agePlaceholder": "Entrez l'âge du patient",
+    "associatedDiseases": "Maladies Associées",
+    "diabetes": "Diabète",
+    "immobility": "Immobilité",
+    "incontinence": "Incontinence",
+    "malnutrition": "Malnutrition",
+    "circulation": "Mauvaise Circulation",
+    "woundLocation": "Localisation de la Plaie",
+    "sacrum": "Sacrum (bas du dos)",
+    "heel": "Talon",
+    "hip": "Hanche",
+    "elbow": "Coude",
+    "shoulder": "Épaule",
+    "ear": "Oreille",
+    "otherLocation": "Autre",
+    "duration": "Durée de la Plaie",
+    "durationPlaceholder": "ex: 2 semaines, 3 mois",
+    "painLevel": "Niveau de Douleur (1-10)",
+    "infectionSigns": "Signes d'Infection",
+    "redness": "Rouleur Augmentée",
+    "heat": "Chaleur autour de la plaie",
+    "pus": "Pus ou Écoulement",
+    "odor": "Odeur Désagréable",
+    "fever": "Fièvre",
+    "additionalNotes": "Notes Supplémentaires",
+    "additionalNotesPlaceholder": "Toute autre information pertinente...",
+    "next": "Suivant: Prendre Photo",
+    "required": "Ce champ est requis"
+  },
+  "camera": {
+    "title": "Capturer l'Image de la Plaie",
+    "takePhoto": "Prendre une Photo",
+    "chooseFromGallery": "Choisir dans la Galerie",
+    "retake": "Reprendre",
+    "usePhoto": "Analyser la Plaie",
+    "analyzing": "Analyse de la plaie...",
+    "noCamera": "Pas de caméra disponible",
+    "permissionRequired": "Permission caméra requise"
+  },
+  "results": {
+    "title": "Résultats de l'Analyse",
+    "stage": "Stade de l'Escarre",
+    "description": "Description",
+    "infectionRisk": "Risque d'Infection",
+    "healingStatus": "État de Guérison",
+    "recommendations": "Recommandations de Soins",
+    "seekDoctor": "Consulter un Professionnel?",
+    "yes": "OUI - Consultez un Professionnel",
+    "no": "NON - Continuez les Soins à Domicile",
+    "newAnalysis": "Nouvelle Analyse",
+    "saveResults": "Sauvegarder dans le Journal",
+    "startChat": "Demander à l'Assistant IA"
+  },
+  "disclaimer": {
+    "title": "Avertissement Médical",
+    "text": "Cette analyse IA est uniquement à titre informatif et N'EST PAS un diagnostic clinique. Consultez toujours un professionnel de santé qualifié (médecin ou infirmier) pour des conseils médicaux appropriés. Seek immediate medical attention if you notice signs of infection."
+  },
+  "settings": {
+    "title": "Paramètres",
+    "language": "Langue",
+    "notifications": "Rappels de Soins",
+    "privacyPolicy": "Politique de Confidentialité",
+    "termsOfService": "Conditions d'Utilisation",
+    "about": "À propos de DermAssist",
+    "version": "Version"
+  },
+  "languages": {
+    "en": "English",
+    "fr": "Français",
+    "es": "Español",
+    "ar": "العربية"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "save": "Sauvegarder",
+    "back": "Retour",
+    "continue": "Continuer"
+  },
+  "chat": {
+    "welcome": "Bonjour! Je suis votre assistant de soins des escarres. Je peux vous aider à répondre aux questions sur les soins des plaies, la prévention, les changements de pansement et la gestion générale. Comment puis-je vous aider aujourd'hui?",
+    "error": "Je m'excuse, mais j'ai rencontré une erreur: {{message}}. Veuillez réessayer ou consulter un professionnel de santé pour une assistance immédiate.",
+    "placeholder": "Tapez votre question...",
+    "send": "Envoyer"
+  }
+}

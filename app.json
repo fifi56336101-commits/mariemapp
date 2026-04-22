@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "DermAssist",
+    "slug": "dermassist",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#4F46E5"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dermassist.app",
+      "buildNumber": "1.0.0",
+      "infoPlist": {
+        "NSCameraUsageDescription": "DermAssist needs camera access to capture wound images for AI analysis.",
+        "NSPhotoLibraryUsageDescription": "DermAssist needs photo library access to select wound images for analysis.",
+        "NSMicrophoneUsageDescription": "DermAssist does not require microphone access."
+      }
+    },
+    "android": {
+      "package": "com.dermassist.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#4F46E5",
+        "foregroundImage": "./assets/android-icon-foreground.png"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.VIBRATE",
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        "android.permission.SCHEDULE_EXACT_ALARM"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-localization",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "DermAssist needs camera access to capture wound images for AI analysis."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "DermAssist needs photo library access to select wound images for analysis."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#4F46E5",
+          "sounds": []
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "dermassist-app"
+      }
+    },
+    "owner": "dermassist",
+    "description": "AI-powered pressure ulcer care assistant for wound analysis and management"
+  }
+}
