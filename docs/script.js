@@ -1,5 +1,5 @@
 // ============================================
-// DermAssist Documentation - Premium Scripts
+// Escare Documentation - Premium Scripts
 // ============================================
 
 // Mobile Menu Functions
@@ -255,6 +255,6 @@ function preloadImages() {
 preloadImages();
 
 // Console branding
-console.log('%c🩹 DermAssist', 'font-size: 24px; font-weight: bold; color: #E91E63;');
-console.log('%cAI-Powered Wound Care', 'font-size: 14px; color: #6B7280;');
-console.log('%chttps://dermassist.app', 'font-size: 12px; color: #9CA3AF;');
+console.log('%c🩹 Escare', 'font-size: 24px; font-weight: bold; color: #E91E63;');
+console.log('%cSoins des Plaies par IA', 'font-size: 14px; color: #6B7280;');
+console.log('%chttps://escare.app', 'font-size: 12px; color: #9CA3AF;');
